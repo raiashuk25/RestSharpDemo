@@ -86,7 +86,6 @@ namespace RestSharpDemo
             Assert.That(response.Data.author, Is.EqualTo("Ashutosh5"), "Name is not correct");
         }
 
-
     }
 
 }
