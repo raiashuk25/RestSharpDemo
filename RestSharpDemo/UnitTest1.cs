@@ -64,6 +64,7 @@ namespace RestSharpDemo
             JObject obs = JObject.Parse(response.Content);
             Assert.That(obs["name"].ToString(), Is.EqualTo("Ravi"), "Name is not correct");
         }
+        //Post method by Type body class
         [Test]
         public void PostingDataByTypeBody()
         {
